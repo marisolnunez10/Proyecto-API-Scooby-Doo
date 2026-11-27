@@ -1,0 +1,79 @@
+body{
+  background: #FFF8E1;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+h1{
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color: #8D5A2B;
+  text-shadow: 3px 3px 0 #FF8C00;
+  letter-spacing: 2px;
+}
+.subtitulo{
+  font-family: 'Bangers', cursive;
+  font-size: 24px;
+  color: #2E7D32;
+}
+button{
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+  background: #FF8C00;
+  color: white;
+  border: 3px solid #8D5A2B;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 5px;
+}
+button:hover{
+  background: #8D5A2B;
+}
+#resultado{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.card{
+  background: white;
+  border: 4px solid #FF8C00;
+  border-radius: 20px;
+  width: 220px;
+  padding: 15px;
+}
+.card img{
+  width: 120px;
+  height: 150px;
+  object-fit: contain;
+}
+.frase{
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+  color: #FF8C00;
+}
+.card-mini{
+  background: white;
+  border: 2px solid #FF8C00;
+  border-radius: 15px;
+  padding: 10px;
+  width: 100%;
+}
+
+.foto-portada{
+  width: 350px;
+  display: block;
+  margin: 10px auto;
+  border: 4px solid #FF8C00;
+  border-radius: 20px;
+}
+
+.foto-card{
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 8px auto;
+}
